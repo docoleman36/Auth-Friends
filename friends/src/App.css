@@ -25,17 +25,10 @@ form {
   display: flex;
   flex-direction: column;
   width: 300px;
-  margin-left: 500px;
+  margin-left: 300px;
 }
 
-input{
-  margin: 10px;
-  border-radius: 5px;
-  outline: none;
-}
-
-ul{
-  list-style: none;
+.links{
   display: flex;
   justify-content: center;
   justify-content: space-around;
@@ -46,3 +39,13 @@ a{
   color: black;
 }
 
+h1{
+  text-align: center;
+}
+
+.friendsList{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: space-around
+}
