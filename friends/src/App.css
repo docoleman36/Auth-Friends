@@ -20,3 +20,29 @@
 .App-link {
   color: #09d3ac;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 500px;
+}
+
+input{
+  margin: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
